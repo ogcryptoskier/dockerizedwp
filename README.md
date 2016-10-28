@@ -16,3 +16,5 @@ $ docker-compose build
 # some time passes
 $ docker-compose up
 ```
+
+WordPress will be available from your browser at `http://0.0.0.0:8080`.  Running the `docker ps` command will reveal the state of the other components.
