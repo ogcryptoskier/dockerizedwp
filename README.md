@@ -9,10 +9,10 @@ You need Docker to build and run the containers configured in this repo.
 
 If you would like to update this template installation of WordPress and related software components, simply clone or download this repo and have at it.
 
-If you would like to use this repository as the template for your personal dockerized WordPress environment, first download it, then optionally copy it's contents into a new, appropriately named repository or directory, and finally build your WordPress environment by running these `docker-compose` commands from the base of the repository:
+If you would like to use this repository as the template for your personal dockerized WordPress environment, first download it, then optionally copy it's contents into a new, appropriately named repository or directory, and finally build your WordPress environment by running these `docker-compose` commands from the base of the new repository or directory:
 
 ```
-docker-compose build
+$ docker-compose build
 # some time passes
-docker-compose up
+$ docker-compose up
 ```
